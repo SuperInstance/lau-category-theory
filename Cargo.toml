@@ -1,0 +1,13 @@
+[package]
+name = "lau-category-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-category-theory"
+description = "Abstract category theory in Rust — categories, functors, natural transformations, adjunctions, limits, colimits, monads, and the Yoneda lemma, with an agent-protocol composition application."
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
